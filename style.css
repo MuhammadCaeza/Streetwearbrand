@@ -1,0 +1,141 @@
+/* Mengatur styling dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling untuk header */
+header {
+    background-color: #2d2d2d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambah shadow */
+}
+
+/* Styling untuk logo */
+header img.logo {
+    height: 50px; /* Ukuran tinggi logo */
+    margin-right: 20px; /* Jarak antara logo dan judul */
+}
+
+/* Styling untuk judul dalam header */
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px; /* Ukuran font lebih besar */
+}
+
+/* Styling untuk navigasi */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px; /* Memberikan padding untuk spacing */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Menambahkan hover effect pada navigasi */
+    transition: color 0.3s ease;
+}
+
+/* Styling untuk kontainer utama */
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Styling untuk bagian brand */
+.brand-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Agar fleksibel jika banyak brand */
+}
+
+/* Styling untuk setiap kartu brand */
+.brand-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Animasi ketika hover */
+}
+
+.brand-card:hover {
+    transform: translateY(-10px); /* Menambahkan efek hover pada kartu */
+}
+
+.brand-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.brand-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.brand-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.brand-card a:hover {
+    background-color: #0056b3; /* Menambahkan efek hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Ubah menjadi relative */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Menambahkan shadow pada footer */
+}
+
+/* Menambahkan margin pada teks footer untuk menyesuaikan spacing */
+footer p {
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+/* Menambahkan styling untuk background gambar di bagian container */
+body {
+    background-image: url('https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SC8AAOSw1ydlKkM0/$_57.JPG?set_id=880000500F'); /* Link gambar background */
+    background-size: cover; /* Agar gambar pas dengan layar */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-attachment: fixed; /* Gambar tetap saat halaman di-scroll */
+}
